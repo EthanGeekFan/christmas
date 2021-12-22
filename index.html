@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ethan的圣诞快乐</title>
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+        }
+
+        model-viewer {
+            height: 100%;
+            width: 100%;
+        }
+
+        .Hotspot {
+            background: #fff;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+            border: none;
+            color: rgba(0, 0, 0, 0.8);
+            display: block;
+            font-family: Futura, Helvetica Neue, sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            max-width: 128px;
+            overflow-wrap: break-word;
+            padding: 0.3em 0.3em;
+            position: absolute;
+            width: max-content;
+            height: max-content;
+            transform: translate3d(-50%, -50%, 0);
+            --min-hotspot-opacity: 0;
+        }
+        /*#ar-button {*/
+        /*    font-size: 0.5em;*/
+        /*    background-color: white;*/
+        /*    border-radius: 30px;*/
+        /*    padding: 20px 40px;*/
+        /*    border: none;*/
+        /*    position: absolute;*/
+        /*    bottom: 50px;*/
+        /*    right: 50px;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<model-viewer bounds="tight" src="index.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+              poster="poster.png" shadow-intensity="2.2" exposure="0.3" shadow-softness="1">
+<!--              skybox-image="moon.jpg" environment-image="white.png">-->
+    <button class="Hotspot" slot="hotspot-1"
+            data-position="-0.02456916245542118m 0.6001349785997451m 0.5241143958874772m"
+            data-normal="0.16429502832782547m 0.3236204990405404m 0.9318137776763717m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">2021.8.3</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-4"
+            data-position="0.41615339750682007m 0.9685374442085404m 0.20449123354166804m"
+            data-normal="0.1642648686032006m 0.32356095525220613m 0.9318397722672355m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">2021.8.13</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-6"
+            data-position="0.33384281043935315m 1.2217834692555034m -0.2282870204315625m"
+            data-normal="0.9286026367259415m 0.32360321155301874m 0.18159874597089465m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">2021.8.20</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-7"
+            data-position="0.20463981973827483m 0.6208428558638748m -0.4639783206306476m"
+            data-normal="0.8751728797041419m 6.50042042551237e-8m -0.48381032505554844m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">2021.9.10</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-8"
+            data-position="-0.17174260257095342m 1.4880030352743883m 0.051986588724311895m"
+            data-normal="-0.6568918935820313m -1.0130453557364933e-7m 0.7539847744790362m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">初始你名，久居我心</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-10"
+            data-position="-0.3513050590917124m 0.5936864666302443m 0.3628067837199259m"
+            data-normal="-0.9397014669297945m -4.595017125783622e-8m 0.341995837767056m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">岁月为笔，相思为墨，字里行间全是你</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-11"
+            data-position="-0.5183867208571753m 0.659290905370446m 0.017213111915542093m"
+            data-normal="-0.987856013384812m -2.0875621582979217e-8m 0.15537212368847228m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">听闻远方有你，我跋涉千里</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-12"
+            data-position="-0.36500147698638674m 0.9415347295096963m -0.2594728658057937m"
+            data-normal="-0.9878646420615701m -2.0868249170071224e-8m 0.15531725263011026m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">我见众人皆草木，唯你是青山</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-13"
+            data-position="-0.5806857530538743m 0.23243925223779383m -0.38434362739960043m"
+            data-normal="-0.8891157665188049m -0.32367502491659406m 0.323585586781798m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">今晚的星星很亮，但我知道你没有在抬头望。仔细想想，这真是星星的损失</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-14"
+            data-position="-0.24340608984708617m 0.32964074462670845m -0.49015750908102024m"
+            data-normal="-0.2658298368406395m 0.000008324325103582271m -0.9640199675193377m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">你问我多喜欢你，我说不出来，但我心里明白，我宁愿和你吵架，也不愿意去爱别人</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-15"
+            data-position="-0.16169835963117662m 0.9399529540803102m 0.3205445896001853m"
+            data-normal="-0.19692969092608m 0.0000021011591540787403m 0.9804176134828178m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">采满这世间的温柔 与明月同赠于你</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-16"
+            data-position="0.3156117003534753m 0.3879022550475848m 0.4687100552481141m"
+            data-normal="0.7660447061737519m -8.636416903531694e-8m 0.6427872961899316m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">你特别好</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-17"
+            data-position="0.5803330287289223m 0.09950424209875619m 0.2711885863713625m"
+            data-normal="0.7660454995079853m -8.636404200426809e-8m 0.6427863507290382m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">特别温柔</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-18"
+            data-position="0.4568066512190676m 0.31794166137549784m -0.2757370351164189m"
+            data-normal="0.5946256352378122m -0.3235994461442899m 0.7360052665389951m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">特别值得</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-19" data-position="0.285184942097354m 1.534323165746925m 0.14295073336054814m"
+            data-normal="0.766045832349886m 8.63639887085332e-8m -0.6427859540619746m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">喜欢你，笨拙而热烈，一无所有却又倾尽所有</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-20"
+            data-position="0.5205610110764494m 0.8186684841154506m -0.23340750509269598m"
+            data-normal="0.7248294283215145m 0.3235944459274733m -0.6082013929645329m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">满海余光都是你，亿万星辰犹不及</div>
+    </button>
+    <button class="Hotspot" slot="hotspot-23"
+            data-position="-0.011769124004586184m 2.0156076036698174m 0.006470057829363543m"
+            data-normal="-0.965579429755405m 0.26010837132477305m 3.4947864529600137e-8m"
+            data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">圣诞快乐</div>
+    </button>
+
+</model-viewer>
+<script type="application/javascript" src="index.js"></script>
+</body>
+</html>
